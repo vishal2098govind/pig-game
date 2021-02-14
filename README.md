@@ -1,2 +1,2 @@
-# pig-game.github.io
+# pig-game
 Pig Game with Vanilla JS
