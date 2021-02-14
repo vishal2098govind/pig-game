@@ -90,12 +90,12 @@ class Game {
     this.players[1 - index].player.classList.remove('player--active');
 
     this.players.forEach(player => {
-      if (player.index === index) {
+      if (player.index === 0) {
         player.active = true;
-        player.classList.add('player--active');
+        player.player.classList.add('player--active');
       } else {
         player.active = false;
-        player.classList.remove('player--active');
+        player.player.classList.remove('player--active');
       }
     });
   }
